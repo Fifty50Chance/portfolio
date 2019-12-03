@@ -1,0 +1,113 @@
+<!-- Same as index.html, check there for comments-->
+<html>
+  <head>
+    <title>PHP Test</title>
+    <link rel="stylesheet" type="text/css" href="Bootstrap_4.3.1/css/bootstrap.css">
+  </head>
+  <body>
+    <div class="container">
+         <!-- Please make sure to change all the #'s to the proper link names-->
+      <ul class="nav nav-pills nav-fill">
+        <li class="col-sm">
+          <a class="nav-link active" href="index.php">Home</a>
+        </li>
+        <li class="col-sm">
+          <a class="nav-link" href="Chen_AboutMe.html">About Me</a>
+        </li>
+        <li class="col-sm">
+          <a class="nav-link" href="Chen_Projects.html">Projects</a>
+        </li>
+        <li class="col-sm">
+          <a class="nav-link" href="Chen_Resume.html">Resume</a>
+        </li>
+        <li class="col-sm">
+          <a class="nav-link" href="Chen_ContactMe.html">Contact Me</a>
+        </li>  
+      </ul>
+    </div>
+    <section class="jumbotron">
+      <div class="container">
+        <h1>Sihan Chen's Engineering Portfolio</h1>
+        <p>My name is Sihan Chen, and I'm currently a sophomore at Dublin High School.</p>
+        <a href="Chen_AboutMe.html">Continue Reading</a>
+      </div>
+    </section>
+    <br>
+    <section class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <img src="Images/Marble Maze.jpg"class="card-img-right" align="right" alt="my picture" height=240px width=240px>
+              <h6 class="card-title">Project</h6>
+              <h1 class="card-title">Marble Maze</h1>
+              <p class="card-text">In freshman year, in the class Introduction to Engineering, one project was to create a small game that could fit in a box, but also be massed produced, and easily assembled and disassembled. 
+                <a href="Chen_Resume.html">Click here to continue reading</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <img src="Images/PalmPilotSquare.PNG"class="card-img-right" align="right" alt="my picture" height=240px width=240px>
+              <h6 class="card-title">Project</h6>
+              <h1 class="card-title">Palm Pilot</h1>
+              <p class="card-text">In the first stage of the PalmPilot project, students had to individually show their knowledge of Autodesk Inventor by building a PalmPilot after measuring the lengths of the actual product.
+                <a href="Chen_Resume.html">Click here to continue reading</a> 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <img src="Images/MiniGolf.PNG"class="card-img-right" align="right" alt="my picture" height=240px width=240px>
+              <h6 class="card-title">Project</h6>
+              <h1 class="card-title">MIT App Inventor</h1>
+              <p class="card-text">In this project, Pradnya Kadam and I had used the MiniGolf tutorial for MIT App Inventor in order to construct a basic game, and then had added our own ideas and improved upon the game.
+                <a href="Chen_Resume.html">Click here to continue reading</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title">High School Application</h6>
+              <h1 class="card-title">Academy of Science</h1>
+              <p class="card-text">In eighth grade, I had applied to the Academy of Science in Virginia, and my application had been accepted. Very few have their applications accepted.
+                <a href="Chen_Resume.html">Click here to continue reading</a>
+              </p>
+              <img src="Images/aos.jpg" height=240px width=360px alt="Picture of AOS">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <section class="jumbotron">
+      <div class="container">
+        <p>Contact Me:</p>
+        <div class="row">
+          <div class="col-sm-3">
+            <a href="mailto:scpenguin39@gmail.com">
+              <img src="Images/gmail icon.png" height=180px width=180px>
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <img src="Images/discord icon.png" height=180px width=180px>
+          </div>
+          <div class="col-sm-3">
+            <a href="https://www.dublin.k12.ca.us/dhs">
+            <img src="Images/DHS2.png" class="float-right">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+</html>
